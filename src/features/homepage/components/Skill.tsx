@@ -3,29 +3,28 @@ import Marquee from "react-fast-marquee";
 
 const Skill = () => {
   const skills = [
-    "/next.png",
-    "/chakra.png",
-    "/express.png",
-    "/tailwind.png",
-    "/prisma.png",
-    "/typescript.png",
-    "/react.png",
+    "/next.svg",
+    "/chakra.svg",
+    "/express.svg",
+    "/tailwind.svg",
+    "/prisma.svg",
+    "/typescript.svg",
+    "/react.svg",
+    "/sequelize.svg",
+    "/material.svg",
   ];
   return (
-    <div className="bg-[#f4f4f4] py-6">
-      <Marquee>
+    <section className="my-20 py-6 bg-purple-700/[0.3] w-full">
+      <Marquee speed={50}>
         {skills.map((skill, index) => {
           return (
-            <div
-              className="relative overflow-hidden h-14 w-44 mx-5"
-              key={index}
-            >
+            <div className="relative overflow-hidden h-14 w-44" key={index}>
               <Image src={skill} alt="skills" fill className="object-contain" />
             </div>
           );
         })}
       </Marquee>
-    </div>
+    </section>
   );
 };
 

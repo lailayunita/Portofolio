@@ -1,16 +1,16 @@
 import About from "./components/About";
-import FeaturedProject from "./components/FeaturedProject";
 import HeroSection from "./components/HeroSection";
+import { Projects } from "./components/Projects";
 import Skill from "./components/Skill";
 
 const Homepage = () => {
   return (
-    <>
+    <main className="relative bg-[#010319] text-white flex justify-center items-center flex-col overflow-hidden">
       <HeroSection />
-      <FeaturedProject />
+      <Projects />
       <Skill />
       <About />
-    </>
+    </main>
   );
 };
 

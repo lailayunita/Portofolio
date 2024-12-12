@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Noto_Sans_KR, Playfair } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`bg-[#010319] ${inter.className}`}>
         <Navbar />
         {children}
         <Footer />
