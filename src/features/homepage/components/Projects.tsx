@@ -22,9 +22,7 @@ export function Projects() {
             </div>
             <div className="group-hover/bento:translate-x-2 transition duration-200 space-y-2">
               <div className="font-sans  font-bold  ">{title}</div>
-              <div className="font-sans text-sm font-normal line-clamp-3">
-                {description}
-              </div>
+              <div className="font-sans text-sm font-normal">{description}</div>
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
                   {icons.map((icon, index) => (
@@ -60,7 +58,7 @@ const items = [
   {
     title: "FreshNest - Laundry Web App",
     description:
-      "A web-based e-commerce application designed to help users manage their laundry conveniently by enabling pick-up and delivery services without the need to visit the outlet. This project was developed as part of the final project for the Full Stack Development Bootcamp, showcasing the culmination of skills learned during the program.",
+      "This project was developed as part of the final project for the Full Stack Development Bootcamp, designed to help users manage their laundry conveniently by enabling pick-up and delivery services without the need to visit the outlet.",
     src: "/freshnest.png",
     icons: [
       "/next2.svg",
@@ -74,7 +72,7 @@ const items = [
   {
     title: "Tixify - Event Management Platform",
     description:
-      "A web-based event management platform designed to help event organizers create and promote events while enabling attendees to browse and register for those events.",
+      "This project was developed as part of the mini project for the Full Stack Development Bootcamp, designed to help event organizers create and promote events while enabling attendees to browse and register for those events.",
     src: "/tixify.png",
     icons: [
       "/next2.svg",
@@ -86,7 +84,8 @@ const items = [
   },
   {
     title: "Builders - Company Profile",
-    description: "Discover the beauty of thoughtful and functional design.",
+    description:
+      "This project was developed as part of a code challenge for the Full Stack Development Bootcamp, where I created a company profile for a construction company. Inspired by designs on Behance, I aimed to showcase my ability to build visually appealing and interactive web pages.",
     src: "/builder.png",
     icons: ["/next2.svg", "/chakra2.svg", "/ts.svg", "/contentful.svg"],
     href: "https://company-profile-blond-two.vercel.app",
