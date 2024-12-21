@@ -59,7 +59,7 @@ const items = [
     title: "FreshNest - Laundry Web App",
     description:
       "This project was developed as part of the final project for the Full Stack Development Bootcamp, designed to help users manage their laundry conveniently by enabling pick-up and delivery services without the need to visit the outlet.",
-    src: "/freshnest.png",
+    src: "/freshnest.webp",
     icons: [
       "/next2.svg",
       "/tail.svg",
@@ -73,7 +73,7 @@ const items = [
     title: "Tixify - Event Management Platform",
     description:
       "This project was developed as part of the mini project for the Full Stack Development Bootcamp, designed to help event organizers create and promote events while enabling attendees to browse and register for those events.",
-    src: "/tixify.png",
+    src: "/tixify.webp",
     icons: [
       "/next2.svg",
       "/tail.svg",
@@ -86,7 +86,7 @@ const items = [
     title: "Builders - Company Profile",
     description:
       "This project was developed as part of a code challenge for the Full Stack Development Bootcamp, where I created a company profile for a construction company. Inspired by designs on Behance, I aimed to showcase my ability to build visually appealing and interactive web pages.",
-    src: "/builder.png",
+    src: "/builder.webp",
     icons: ["/next2.svg", "/chakra2.svg", "/ts.svg", "/contentful.svg"],
     href: "https://company-profile-blond-two.vercel.app",
   },
