@@ -1,5 +1,6 @@
 import { BentoGrid } from "@/components/ui/bento-grid";
 import { MoveUpRight } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export function Projects() {
@@ -17,8 +18,14 @@ export function Projects() {
             key={i}
             className="row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4  shadow-[0_8px_16px_rgb(255_255_255/0.4) border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 justify-between flex flex-col space-y-4"
           >
-            <div className="overflow-hidden rounded-xl">
-              <img src={src} />
+            <div className="overflow-hidden rounded-xl relative">
+              <Image
+                src={src}
+                alt="project"
+                width={1000}
+                height={0}
+                objectFit="cover"
+              />
             </div>
             <div className="group-hover/bento:translate-x-2 transition duration-200 space-y-2">
               <div className="font-sans  font-bold  ">{title}</div>
@@ -31,7 +38,13 @@ export function Projects() {
                       className="border border-white-100/[0.2] rounded-full bg-slate-900 lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{ transform: `translateX(-${5 * index * 2}px)` }}
                     >
-                      <img src={icon} alt={icon} className="p-2" />
+                      <img
+                        src={icon}
+                        alt={icon}
+                        className="p-2"
+                        width="full"
+                        height="full"
+                      />
                     </div>
                   ))}
                 </div>
